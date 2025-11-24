@@ -11,10 +11,10 @@ body {
 }
 
 .container {
-  max-width: 1700px;
+  max-width: 2400px;
   margin: 0 auto;
-  padding: 50px 120px;
-  width: 100%;
+  padding: 20px 40px;
+  width: 80%;
 }
 
 /* header: logo left, nav right */
@@ -25,9 +25,9 @@ header {
 
 .logo {
   position: absolute;
-  left: 60px; /* moved left to align exactly above phone */
+  left: 40px; /* moved left to align exactly above phone */
   top:5px;
-  height: 80px; /* slightly smaller for proper proportion */
+  height: 70px; /* slightly smaller for proper proportion */
 }
 
 .header-buttons {
@@ -42,7 +42,7 @@ header {
   color: #bbbec0;
   text-decoration: none;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 14px;
   background-color: #fff;
   border: none;
   border-bottom: 1px solid #efefef;
@@ -61,9 +61,9 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 100px;  
+  gap: 40px;  
   margin-top: 80px;
-  padding: 0 80px;
+  padding: 0 40px;
 }
 
 .phone-section {
@@ -73,12 +73,12 @@ main {
 }
 
 .phone-section .phone {
-  width: 290px; /* larger phone */
+  width: 230px; /* larger phone */
   height: auto;
   border-radius: 26px;
   display: block;
   box-shadow: 0 10px 35px rgba(0,0,0,0.06);
-  transform: translateY(30px);
+  transform: translateY(10px);
 }
 
 .text-section {
@@ -89,7 +89,7 @@ main {
 
 .text-section h1 {
   color: #8fbaec;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 100;
   margin-bottom: 18px;
 }
@@ -98,7 +98,7 @@ main {
   color: #a5a7a8;
   line-height: 1.8;
   margin-bottom: 28px;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .buttons {
