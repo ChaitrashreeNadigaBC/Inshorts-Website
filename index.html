@@ -1,50 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inshorts Website</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inshorts Clone</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1>Inshorts Website</h1>
-
-    <!--Header Section-->
-    <header>
-        <img src="images/inshorts-logo.png" alt="Inshorts Logo" class="logo">
-    </header>
-
-    <!-- Main Content Section-->
-    <section class="main-container">
-
-        <!-- Left side Phone-image-->
-        <div class="phone-section">
-            <img src="images/phone.jpg" alt="Phone" class="phone-img">
-        </div>
-
-        <!-- Right side Text & Buttons-->
-         <div class="text-section">
-            <h1>Stay informed in 60 words.</h1>
-
-            <p>
-                We understand you don't have time to go through long news articles
-                everyday. So we cut the clutter and deliver them in 60-word shorts.
-                Short news for the mobile generation.
-            </p>
-
-            <!--Buttons-->
-            <div class="top-buttons">
+    <div class="container">
+        <header>
+            <img src="images/inshorts-logo.png" class="logo" />
+            <div class="header-buttons">
                 <button class="nav-btn">Read Now</button>
                 <button class="nav-btn">Blog</button>
             </div>
+        </header>
 
-            <div class="download-buttons">
-                <img src="images/appstore.png" class="store-img" alt="App Store">
-                <img src="images/googleplay.png" class="store-img" alt="Google Play">
-
+        <main>
+            <div class="phone-section">
+                <img src="images/phone.jpg" class="phone" />
             </div>
-         </div>
 
-     </section>
+            <div class="text-section">
+                <h1>Stay informed in 60 words.</h1>
+                <p>
+                    We understand you don't have time to go through long news articles
+                    everyday. So we cut the clutter and deliver them in 60‑word shorts.
+                    Short news for the mobile generation.
+                </p>
+                <div class="buttons">
+                    <img src="images/appstore.png" class="store" />
+                    <img src="images/googleplay.png" class="store" />
+                </div>
+            </div>
+        </main>
+    </div>
 </body>
 </html>
